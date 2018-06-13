@@ -1,0 +1,75 @@
+*{
+	
+	font-family: "Roboto Condensed", sans-serif;
+}
+ .content{
+	margin-right: 0.7rem;
+	margin-left: 0.7rem;
+	}
+
+.header{
+	margin-top: 2rem;
+
+}
+.setlogo{
+	width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #1A1B26;
+}
+.menu{
+	margin-top: -4rem;
+	margin-left: 5.7rem;
+	width: 3rem;
+    height: 3rem;
+  
+    border-radius: 50%;
+    background: #fff;
+    padding-top: 0.7rem;
+    display:block;
+}
+.menu:hover{
+	cursor:pointer;
+}
+.menu div{
+	
+	margin-left: 0.3rem;
+	margin-top:0.3rem;
+	border:1px solid #1A1B26;
+	width: 80%;
+}
+#ocupation{
+	margin-top: 1.8rem;
+}
+#menumodoal-content{
+	width: 100%;
+	height: 100%;
+	background-color:#fff; 
+}
+.main_background{
+	margin-top: -4rem;
+	height: 600px;
+	background-color: #A1A1A1;
+	
+}
+.background_img{
+	
+
+}
+.main_brand{
+	padding-top: 20rem;
+}
+
+/*Work section */
+.ws-content{
+	margin-top:3rem;
+}
+
+@media only screen and (min-width: 968px) {
+   .content{
+	margin-right: 2.7rem;
+	margin-left: 2.7rem;
+	}
+}
