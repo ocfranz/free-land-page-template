@@ -67,6 +67,27 @@
 	margin-top:3rem;
 }
 
+.ws-content div div div{
+	height: 22rem;
+}
+#ws1{
+	background-color: #000000;
+}
+#ws1 a{
+	color: #fff;
+}
+#ws2{
+	background-color: #83D05F;
+}
+.wk-link{
+	text-decoration: none;
+}
+.wk-link:hover, .wk-link:visited{
+	text-decoration: none;
+}
+.wk-content{
+	margin-top: 6rem;
+}
 @media only screen and (min-width: 968px) {
    .content{
 	margin-right: 2.7rem;
