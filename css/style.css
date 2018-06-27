@@ -61,7 +61,9 @@
 .main_brand{
 	padding-top: 20rem;
 }
-
+.main_brand h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
 /*Work section */
 .ws-content{
 	margin-top:3rem;
