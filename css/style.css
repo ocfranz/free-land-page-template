@@ -70,24 +70,42 @@
 .ws-content div div div{
 	height: 22rem;
 }
-#ws1{
-	background-color: #000000;
-}
-#ws1 a{
-	color: #fff;
-}
-#ws2{
-	background-color: #83D05F;
-}
 .wk-link{
 	text-decoration: none;
+	color: #fff;
 }
 .wk-link:hover, .wk-link:visited{
 	text-decoration: none;
+	color: #fff;
 }
 .wk-content{
 	margin-top: 6rem;
 }
+.wk-content h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+.wk-content i{
+	margin-bottom: 1rem;
+}
+#ws1{
+	background-color: #000000;
+}
+#ws2{
+	background-color: #83D05F;
+}
+#ws3{
+	background-color: #1190F9;
+}
+#ws4{
+	background-color: #9775FA;
+}
+#ws5{
+	background-color: #E85757;
+}
+#ws6{
+	background-color: #181111;
+}
+
 @media only screen and (min-width: 968px) {
    .content{
 	margin-right: 2.7rem;
