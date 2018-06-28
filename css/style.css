@@ -104,6 +104,15 @@
 .overlay-after{
 	width: 100%;
 }
+.social-links{
+	margin-top: 12rem;
+}
+.social-links a, .social-links a:visited{
+	display: inline;
+	color: #918B94;
+	text-decoration: none;
+
+}
 /*Profile css*/
 
 .profile-content{
@@ -122,6 +131,7 @@
 .main_brand h1{
 	font-family: "Arial Black", Gadget, sans-serif;
 }
+
 /*Work section */
 .work_section{
 	background-color: #E4E4E4;
@@ -173,6 +183,18 @@
 }
 #ws6{
 	background-color: #181111;
+}
+
+/*Services css*/
+.services-item  {
+	margin:auto;
+	background-color: #063937;
+	height: 15rem;
+}
+.services-item:hover{
+	background-color: #3C4788;
+	opacity: 0.8;
+	cursor: pointer;
 }
 @media only screen and (min-width: 968px) {
    .content{

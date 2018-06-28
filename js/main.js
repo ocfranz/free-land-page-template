@@ -1,18 +1,19 @@
-/*function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+function showmenu(){
+	$(".menu").toggleClass("menu-after");
+	$("#mainNav").toggleClass("overlay-after");
+	$(".job-name").toggleClass("job-name-after");
+	$('body').toggleClass("noscroll");
 }
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-*/
 
 $(document).ready(
 	function(){
 		$(".menu").click(function(){
-			$(".menu").toggleClass("menu-after");
-			$("#mainNav").toggleClass("overlay-after");
-			$(".job-name").toggleClass("job-name-after");
-			$('body').toggleClass("noscroll");
+			showmenu();
+		});
+		$("#wk-menu").click(function(){
+			showmenu();
+		});
+		$("#ser-menu").click(function(){
+			showmenu();
 		});
 	})
