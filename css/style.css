@@ -2,6 +2,9 @@
 	
 	font-family: "Roboto Condensed", sans-serif;
 }
+.noscroll{
+	overflow: hidden;
+}
  .content{
 	margin-right: 0.7rem;
 	margin-left: 0.7rem;
@@ -52,6 +55,9 @@
 	margin-top: -4rem;
 	height: 600px;
 	background-color: #A1A1A1;
+	background-image: url(../media/face3.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
 	
 }
 /*Menu css*/
@@ -59,12 +65,13 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index:10;
+    z-index:1;
     top: 0;
     left: 0;
     background-color: #000;
     overflow-x: hidden;
     transition: 0.4s;
+
 }
 
 .overlay-content {

@@ -13,7 +13,7 @@ $(document).ready(
 			$(".menu").toggleClass("menu-after");
 			$("#mainNav").toggleClass("overlay-after");
 			$(".job-name").toggleClass("job-name-after");
-
+			$('body').toggleClass("noscroll");
 
 
 		});
