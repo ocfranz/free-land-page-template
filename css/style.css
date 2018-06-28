@@ -54,11 +54,11 @@
 .main_background{
 	margin-top: -4rem;
 	height: 600px;
-	background-color: #A1A1A1;
+	background-color: #EEEEEE;
 	background-image: url(../media/face4.png);
 	background-repeat: no-repeat;
 	background-position: bottom right;
-
+	
 }
 /*Menu css*/
 .overlay {
@@ -104,7 +104,13 @@
 .overlay-after{
 	width: 100%;
 }
+/*Profile css*/
 
+.profile-content{
+	padding-top: 2rem;
+	margin: auto;
+	color: #565657;
+}
 /*Menu end css*/
 
 .background_img{
@@ -117,10 +123,19 @@
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 /*Work section */
-.ws-content{
-	margin-top:3rem;
+.work_section{
+	background-color: #E4E4E4;
+	padding-bottom: 1rem;
+}
+.section-title{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #565657;
 }
 
+.ws-content{
+	margin:3rem 3rem;
+}
 .ws-content div div div{
 	height: 22rem;
 }
@@ -159,10 +174,10 @@
 #ws6{
 	background-color: #181111;
 }
-
 @media only screen and (min-width: 968px) {
    .content{
 	margin-right: 2.7rem;
 	margin-left: 2.7rem;
 	}
+	
 }
