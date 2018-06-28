@@ -24,29 +24,29 @@
 	margin-left: 5.7rem;
 	width: 3rem;
     height: 3rem;
-  
     border-radius: 50%;
     background: #fff;
     padding-top: 0.7rem;
     display:block;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/basic-ui-elements-plain/422/06_menu_stack-512.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 30px;
 }
 .menu:hover{
 	cursor:pointer;
 }
-.menu div{
-	
-	margin-left: 0.3rem;
-	margin-top:0.3rem;
-	border:1px solid #1A1B26;
-	width: 80%;
+.menu i{
+	margin-top: -0.7rem;
+}
+.menu-after{
+	background-image: url(https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/cross-24-512.png)
 }
 #ocupation{
 	margin-top: 1.8rem;
 }
-#menumodoal-content{
-	width: 100%;
-	height: 100%;
-	background-color:#fff; 
+.job-name-after{
+	color: #fff;
 }
 .main_background{
 	margin-top: -4rem;
@@ -54,9 +54,54 @@
 	background-color: #A1A1A1;
 	
 }
+/*Menu css*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index:10;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.4s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay-after{
+	width: 100%;
+}
+
+/*Menu end css*/
+
 .background_img{
 	
-
 }
 .main_brand{
 	padding-top: 20rem;
