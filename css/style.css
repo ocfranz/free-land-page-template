@@ -1,3 +1,9 @@
+body{
+
+  overflow-x: hidden;
+
+}
+
 *{
 	
 	font-family: "Roboto Condensed", sans-serif;
@@ -18,8 +24,7 @@
 	width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    border-radius: 50%;
-    border-radius: 50%;
+
     background: #1A1B26;
 }
 .menu{
