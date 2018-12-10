@@ -16,4 +16,5 @@ $(document).ready(
 		$("#ser-menu").click(function(){
 			showmenu();
 		});
+		
 	})
